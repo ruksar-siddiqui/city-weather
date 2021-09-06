@@ -1,0 +1,18 @@
+<div class="card">
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-12"><h2>{{  cityDetails?.name }}</h2></div>
+      <div class="col-md-6"><strong>lat: </strong>{{ cityDetails?.coord?.lat }}</div>
+      <div class="col-md-6"><strong>lon: </strong>{{ cityDetails?.coord?.lon }}</div>
+    </div>
+    <div class="row">
+      <div class="col-md-12"><h5>Temperature</h5></div>
+      <div class="col-md-6"><strong>feels_like: </strong>{{ cityDetails?.main?.feels_like }}</div>
+      <div class="col-md-6"><strong>humidity: </strong>{{ cityDetails?.main?.humidity }}</div>
+      <div class="col-md-6"><strong>pressure: </strong>{{ cityDetails?.main?.pressure }}</div>
+      <div class="col-md-6"><strong>temp: </strong>{{ cityDetails?.main?.temp }}</div>
+      <div class="col-md-6"><strong>temp_max: </strong>{{ cityDetails?.main?.temp_max }}</div>
+      <div class="col-md-6"><strong>temp_min: </strong>{{ cityDetails?.main?.temp_min }}</div>
+    </div>
+  </div>
+</div>

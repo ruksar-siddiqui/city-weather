@@ -1,0 +1,36 @@
+.inputfield{
+    position:relative;
+}
+.validationerroricon{
+    position: relative; 
+    transform: translateY(-50%); 
+    color: darkred;
+    font-size: 100%;
+    top: -17px;
+    right: 0px;
+    left: 97%;
+}
+
+.form-group .validationerroricon .spancontent {
+    display: none;
+  
+}
+
+.form-group .validationerroricon:hover  .spancontent{
+    display: block;
+    font-size: 50px;
+    position: relative;
+    display: block;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background: #ffffff;
+    border: 1px solid darkred;
+    border-radius: 5px;
+    left: -12ppx;
+    right: 223px;
+    width: 216px;
+    height: 17px;
+    top: -15px;
+    bottom: 0px;
+}

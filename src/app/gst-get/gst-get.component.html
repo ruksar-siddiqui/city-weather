@@ -1,0 +1,19 @@
+<table class="table table-hover">
+  <thead>
+  <tr>
+      <td>City Name</td>
+      <td>Temperature</td>
+      <td>Sunrise Time</td>
+      <td>Sunset Time</td>
+  </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let city of cities" (click)="moveToDetails(city)">
+        <td>{{ city.city_name }}</td>
+        <td>{{ city.Temperature }}</td>
+        <td>{{ city.sunrise_time }}</td>
+        <td>{{ city.sunset_time }}</td>
+</tr>
+  </tbody>
+</table>
